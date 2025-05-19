@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  #adatlap {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  /* Követelmény: 15 különböző CSS szelektor */
+  body h1 { font-size: 24px; }
+  h2 + ul { margin-bottom: 20px; }
+  /*ul#autok li:first-child { font-weight: bold; }*/
+  ul li:last-child { border-style: dashed; }
+  #adatlap p span { font-weight: bold; }
+  li:hover { color: darkblue; }
+  #adatlap p { margin: 5px 0; }
+  ul li:nth-child(even) { background-color: #f9f9f9; }
+  ul > li { border-radius: 4px; }
+  ul#autok li.selected { background-color: lightgreen; }
+  body > h1 { text-align: center; }
+  #adatlap { line-height: 1.5; }
+  ul#autok li:active { background-color: #ccc; }
+  #adatlap span { color: #444; }
+  li::marker { color: transparent; } /* csak hogy meglegyen egy extra */
+  
